@@ -1,14 +1,17 @@
 # Canvas Image Filter
 
 ```jsx
-import { blackAndWhite } from 'canvas-image-filter'
+import filter, { blackAndWhite } from 'canvas-image-filter'
 
-const filteredImage = blackAndWhite(imageData)
+const image = document.querySelector('#image');
+
+image.src = filter(image, blackAndWhite); // image base64
 ```
 
 # Filters
 
-- blackAndWhite
-- sepiatone
-- negative
-- neon
+- BlackAndWhite
+- Sepia
+- Raphael
+- Francis
+- Benjamin
