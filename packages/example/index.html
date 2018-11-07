@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Canvas Image Filter</title>
+    <link rel="stylesheet" href="assets/base.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Canvas Image Filter</h1>
+
+      <div class="example">
+        <div class="filter-image">
+          <img id="image" src="assets/images/rio-de-janeiro.jpg" />
+        </div>
+        <div class="filter-controls">
+          <input type="button" id='black-and-white' value='Black And White' />
+          <input type="button" id='sepia' value='Sepia' />
+          <input type="button" id='raphael' value='Raphael' />
+        </div>
+      </div>
+    </div>
+
+    <canvas id="root"></canvas>
+    <script src="bundle.js"></script>
+  </body>
+</html>

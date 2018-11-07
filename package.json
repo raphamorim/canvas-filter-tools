@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start-example": "cd packages/example && yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.secureserver.net/hamorim/canvas-image-filter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "21.0.2",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}

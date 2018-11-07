@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.example {
+  position: relative;
+  margin-top: 40px;
+  /*display: flex;
+  align-items: center;
+  justify-content: space-between;*/
+}
+
+.filter-image {
+  position: relative;
+}
+
+.filter-image img {
+  max-width: 900px;
+  max-height: 500px;
+}
