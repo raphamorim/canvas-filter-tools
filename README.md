@@ -1,5 +1,7 @@
 # Canvas Image Filter
 
+[See it working on the demo](http://raphamorim.io/canvas-filter-tools/)
+
 ```jsx
 import filter, { blackAndWhite } from 'canvas-image-filter'
 
