@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/raphamorim/canvas-filter-tools.git"
   },
-  "keywords": [],
+  "keywords": [ "canvas", "filter" ],
   "author": "Raphael Amorim <rapha850@gmail.com>",
   "license": "MIT"
 }

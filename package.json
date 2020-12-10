@@ -1,7 +1,7 @@
 {
   "private": true,
   "workspaces": [
-    "packages/*",
+    "canvas-filter-tools",
     "docs"
   ],
   "scripts": {
@@ -12,7 +12,6 @@
     "type": "git",
     "url": "https://github.com/raphamorim/canvas-filter-tools.git"
   },
-  "keywords": [],
   "author": "Raphael Amorim <rapha850@gmail.com>",
   "license": "MIT",
   "devDependencies": {
